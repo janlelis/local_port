@@ -1,12 +1,12 @@
 # -*- encoding: utf-8 -*-
 
-require File.expand_path('../lib/local_port/version', __FILE__)
+require File.expand_path('../lib/local_port', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name          = "local_port"
   gem.version       = LocalPort::VERSION
-  gem.summary       = %q{TODO: Summary}
-  gem.description   = %q{TODO: Description}
+  gem.summary       = %q{Find out which local ports are usable.}
+  gem.description   = %q{Gives you tools to find out which ports on your system are free to use}
   gem.license       = "MIT"
   gem.authors       = ["Jan Lelis"]
   gem.email         = "mail@janlelis.de"
