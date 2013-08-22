@@ -1,0 +1,27 @@
+= local_port
+
+* {Homepage}[https://rubygems.org/gems/local_port]
+* {Documentation}[http://rubydoc.info/gems/local_port/frames]
+* {Email}[mailto:mail at janlelis.de]
+
+== Description
+
+TODO: Description
+
+== Features
+
+== Examples
+
+  require 'local_port'
+
+== Requirements
+
+== Install
+
+  $ gem install local_port
+
+== Copyright
+
+Copyright (c) 2013 Jan Lelis
+
+See LICENSE.txt for details.
