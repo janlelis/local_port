@@ -1,27 +1,13 @@
-= local_port
+= LocalPort
 
 * {Homepage}[https://rubygems.org/gems/local_port]
-* {Documentation}[http://rubydoc.info/gems/local_port/frames]
 * {Email}[mailto:mail at janlelis.de]
-
-== Description
-
-TODO: Description
 
 == Features
 
-== Examples
-
-  require 'local_port'
-
-== Requirements
-
-== Install
-
-  $ gem install local_port
+    LocalPort.free?(port_number) # returns false when port already is in use
+    LocalPort.next_free_one(port_number) # returns number of port that is usable
 
 == Copyright
 
-Copyright (c) 2013 Jan Lelis
-
-See LICENSE.txt for details.
+(c) 2013 Jan Lelis, MIT
