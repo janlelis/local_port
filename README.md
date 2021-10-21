@@ -5,8 +5,6 @@
     LocalPort.free?(port_number) # returns false when port already is in use
     LocalPort.next_free_one(port_number) # returns number of port that is usable
 
-== Copyright
+== J-_-L
 
-Initial version based on http://stackoverflow.com/questions/517219/ruby-see-if-a-port-is-open
-
-(c) 2013 Jan Lelis, MIT
+(c) 2013, 2021 Jan Lelis, MIT

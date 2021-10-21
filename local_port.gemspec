@@ -6,10 +6,10 @@ Gem::Specification.new do |gem|
   gem.name          = "local_port"
   gem.version       = LocalPort::VERSION
   gem.summary       = %q{Find out which local ports are usable.}
-  gem.description   = %q{Gives you tools to find out which ports on your system are free to use}
+  gem.description   = %q{Find out which ports on your system are free to use.}
   gem.license       = "MIT"
   gem.authors       = ["Jan Lelis"]
-  gem.email         = "mail@janlelis.de"
+  gem.email         = ["hi@ruby.consulting"]
   gem.homepage      = "https://rubygems.org/gems/local_port"
 
   gem.files         = `git ls-files`.split($/)
@@ -17,9 +17,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
-  gem.add_development_dependency 'bundler', '~> 1.0'
-  gem.add_development_dependency 'rake', '~> 0.8'
-  gem.add_development_dependency 'rdoc', '~> 3.0'
-  gem.add_development_dependency 'rspec', '~> 2.4'
-  gem.add_development_dependency 'rubygems-tasks', '~> 0.2'
+  gem.add_development_dependency 'rake', '~> 13.0'
 end
