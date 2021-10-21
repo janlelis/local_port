@@ -1,4 +1,4 @@
-# LocalPort
+# LocalPort [![Gem Version](https://badge.fury.io/rb/local_port.svg)](https://badge.fury.io/rb/local_port)
 
 ## Features
 
