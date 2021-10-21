@@ -1,11 +1,10 @@
 require 'socket'
-require 'timeout'
 
 module LocalPort
   VERSION = '1.0.0'
 
   def self.free?(port, seconds=1)
-    Socket.tcp("127.0.0.1", port, connect_timeout: 1)
+    Socket.tcp("127.0.0.1", port, connect_timeout: seconds)
     false
   rescue Errno::ECONNREFUSED, Errno::EHOSTUNREACH
     true
